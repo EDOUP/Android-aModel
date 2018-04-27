@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#FFFFFF"
+              android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="80dp">
+
+        <ImageView
+            android:id="@+id/guide6_item_imageView"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/phone"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/guide6_item_imageView">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/guide6_name"
+                android:layout_width="123dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="大堂经理"/>
+
+            <TextView
+                android:id="@+id/guide6_telephoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:maxLines="1"
+                android:gravity="center"
+                android:text="18502934732"
+                android:textSize="16dp"/>
+        </LinearLayout>
+
+            <TextView
+                android:id="@+id/guide6_introduce"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:text="如您需要帮助或投诉,为您提供16小时服务"
+                android:textSize="15dp"
+                android:gravity="bottom"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/guide6_id"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="0"/>
+
+</LinearLayout>

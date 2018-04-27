@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffff">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+    <ImageView
+        android:id="@+id/guide3_item_imageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+       >
+    </ImageView>
+
+        <TextView
+            android:id="@+id/guide3_item_textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/guide3_item_imageView2"
+            android:gravity="center_vertical"
+            android:text="崇武古城"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:id="@+id/guide3_item_textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:text="惠安县东南海滨，当时为抵御倭寇所筑"/>
+        <TextView
+            android:id="@+id/guide3_item_textView4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignBottom="@id/guide3_item_imageView2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/guide3_item_textView1"
+            android:gravity="center"
+            android:text="¥20"
+            android:textColor="@drawable/RED"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/guide3_item_textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="4.8分     12条点评"
+            android:layout_below="@id/guide3_item_textView1"
+            android:layout_toRightOf="@id/guide3_item_imageView2"
+            android:layout_toLeftOf="@id/guide3_item_textView4"
+            android:layout_toStartOf="@id/guide3_item_textView4"/>
+
+
+        <TextView
+            android:id="@+id/guide3_item_textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="据您17.9km"
+            android:layout_alignBottom="@id/guide3_item_imageView2"
+            android:layout_toRightOf="@id/guide3_item_imageView2"
+            android:layout_toLeftOf="@id/guide3_item_textView4"/>
+
+
+
+
+    </RelativeLayout>
+</LinearLayout>

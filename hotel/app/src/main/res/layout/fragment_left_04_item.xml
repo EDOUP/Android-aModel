@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffff">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp" >
+        <!--android:background="#ba55D3"-->
+
+
+        <ImageView
+            android:id="@+id/fragment04_item_imageview"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+    />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/fragment04_item_imageview">
+        <TextView
+            android:id="@+id/fragment04_item_textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="XX套房"
+            android:textSize="20dp"
+            android:layout_marginTop="2dp"
+            android:gravity="center_vertical"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/fragment04_item_imageview"
+            android:textColor="#ff0000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cccccc"/>
+        <TextView
+            android:id="@+id/fragment04_item_textView2"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/fragment04_item_textView1"
+            android:layout_toRightOf="@id/fragment04_item_imageview"
+            android:text="限时特惠"
+            android:textColor="#222222"
+            android:gravity="center_vertical"/>
+
+
+            </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffff" >
+    <RelativeLayout
+        android:id="@+id/f05_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#0000ff">
+        <ImageView
+            android:id="@+id/f05_tele_img"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentLeft="true"
+            android:src="@mipmap/tele_img"/>
+        <ImageView
+            android:id="@+id/f05_in_img"
+            android:layout_alignParentRight="true"
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:src="@mipmap/tele_right"/>
+        <TextView
+            android:id="@+id/f05_item_text"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_toRightOf="@id/f05_tele_img"
+            android:maxLines="1"
+            android:layout_toLeftOf="@id/f05_in_img"
+            android:gravity="center"
+            android:textSize="35dp"
+            android:textColor="#ffffff"
+            android:text="15512345678"
+            tools:ignore="UnknownId"/>
+
+        <!-- 此条item的ID -->
+        <TextView
+            android:id="@+id/f05_item_id"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+</LinearLayout>

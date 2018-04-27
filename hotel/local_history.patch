@@ -1,0 +1,7 @@
+Index: app/src/main/res/layout/fragment_2.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/fragment_2.xml	(date 1523620817209)
++++ app/src/main/res/layout/fragment_2.xml	(date 1523620817209)

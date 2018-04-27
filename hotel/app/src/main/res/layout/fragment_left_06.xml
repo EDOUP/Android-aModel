@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffff">
+    <!-- TopBar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#000000"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/f06_btn_openDrawer"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/drawer"/>
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#C2C2C2"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="     English"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#C2C2C2"/>
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="5dp"
+            android:text="    简体中文"
+            android:textColor="#000000"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#C2C2C2"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="     日本語"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#C2C2C2"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="     Deutsch "
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#C2C2C2"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="     Español"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#C2C2C2"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="     Français"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#C2C2C2"/>
+
+    </RadioGroup>
+</LinearLayout>

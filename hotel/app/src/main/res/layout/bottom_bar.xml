@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="horizontal"
+    android:layout_alignParentBottom="true"
+    android:id="@+id/Home_Call">
+    
+    <LinearLayout
+        android:id="@+id/bottom_fragment_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/bottome_selected_1"
+            android:layout_width="match_parent"
+            android:layout_height="7dp"
+            android:layout_marginBottom="3dp"
+            android:background="#000000"/>
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView 
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:src="@drawable/home"/>
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Home"
+                android:textSize="10dp"
+                android:textColor="#000000"/>
+        </LinearLayout>
+    </LinearLayout>
+    
+    <TextView 
+        android:layout_width="1dp"
+        android:layout_height="40dp">
+    </TextView>
+    <!-- 
+    <LinearLayout
+        android:id="@+id/bottom_fragment_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:background="#C2C2C2"
+        android:gravity="center"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/bottome_selected_2"
+            android:layout_width="match_parent"
+            android:layout_height="7dp"
+            android:layout_marginBottom="3dp"
+            android:background="#C2C2C2"/>
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView 
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:src="@drawable/menu"/>
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Menu"
+                android:textSize="10dp"
+                android:textColor="#000000"/>
+        </LinearLayout>
+    </LinearLayout>
+    
+    <TextView 
+        android:layout_width="1dp"
+        android:layout_height="40dp">
+    </TextView>
+    
+    
+    <LinearLayout
+        android:id="@+id/bottom_fragment_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:background="#C2C2C2"
+        android:gravity="center"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/bottome_selected_3"
+            android:layout_width="match_parent"
+            android:layout_height="7dp"
+            android:layout_marginBottom="3dp"
+            android:background="#C2C2C2"/>
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView 
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:src="@drawable/other"/>
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="other"
+                android:textSize="10dp"
+                android:textColor="#000000"/>
+        </LinearLayout>
+    </LinearLayout>
+    
+    <TextView 
+        android:layout_width="1dp"
+        android:layout_height="40dp">
+    </TextView>
+    
+     -->
+    <LinearLayout
+        android:id="@+id/bottom_fragment_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:background="#C2C2C2"
+        android:gravity="center"
+        android:layout_weight="3">
+        <TextView
+            android:id="@+id/bottome_selected_4"
+            android:layout_width="match_parent"
+            android:layout_height="7dp"
+            android:layout_marginBottom="3dp"
+            android:background="#C2C2C2"/>
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView 
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:src="@drawable/phone"/>
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Call"
+                android:textSize="10dp"
+                android:textColor="#000000"/>
+        </LinearLayout>
+    </LinearLayout>
+    
+    
+    
+    
+    
+    
+    
+
+</LinearLayout>
